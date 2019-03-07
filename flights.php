@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>HomeScreen</title>
+<title>AirBus</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Conference project">
@@ -11,8 +11,8 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/speakers.css">
-<link rel="stylesheet" type="text/css" href="styles/speakers_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
 
@@ -26,41 +26,31 @@
 			<div class="logo menu_logo">
 				<a href="#">
 					<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-						<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
+						<div class="logo_image"><div><img src="images/logo.jpg" alt=""></div></div>
 						<div class="logo_content">
-							<div class="logo_text logo_text_not_ie">Air-Buzz</div>
-							<div class="logo_sub">August 25, 2018 - Miami Marina Bay</div>
+							<div class="logo_text logo_text_not_ie"></div>
+							<div class="logo_sub"></div>
 						</div>
 					</div>
 				</a>
 			</div>
 			<ul>
-				<li class="menu_item"><a href="index.html">Home</a></li>
-				<li class="menu_item"><a href="#<div id="logo_text" class="logo_text logo_text_not_ie">AirBus</div>">A320</a></li>
-				<li class="menu_item"><a href="#">A330</a></li>
-				<li class="menu_item"><a href="#">A350</a></li>
-				<li class="menu_item"><a href="news.html">Search&Filter</a></li>
+				<li class="menu_item"><a href="flights.php">Home</a></li>
+				<li class="menu_item"><a href="#">About us</a></li>
+				<li class="menu_item"><a href="#">Flights</a></li>
+				<li class="menu_item"><a href="#">Overview</a></li>
+				
 				<li class="menu_item"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<div class="menu_social">
-			<div class="menu_social_title">Follow uf on Social Media</div>
-			<ul>
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
+	
 	</div>
 	
 	<!-- Home -->
 
 	<div class="home">
 		<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/speakers.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/bg.jpg" data-speed="0.8"></div>
 
 		<!-- Header -->
 
@@ -77,7 +67,7 @@
 												<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
 												<div class="logo_content">
 													<div id="logo_text" class="logo_text logo_text_not_ie">AirBus</div>
-													<div class="logo_sub"></div></div>
+													<div class="logo_sub">The Ultimate Travel</div>
 												</div>
 											</div>
 										</a>	
@@ -89,8 +79,6 @@
 						</div>
 					</div>
 				</div>
-			
-
 				<div class="header_nav" id="header_nav_pin">
 					<div class="header_nav_inner">
 						<div class="header_nav_container">
@@ -100,15 +88,17 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul>
-													<li><a href="index.php">Flights</a></li>
-													<li><a href="#"> Company</a></li>
-													<li><a href="#"> Vision</a></li>
+													<li class="active"><a href="flights.php">Home</a></li>
+													<li><a href="#">About Us</a></li>
+													<li><a href="speakers.html">Flights</a></li>
+													<li><a href="events.html">Overview</a></li>
+													
 													<li><a href="contact.html">Contact</a></li>
 												</ul>
 											</nav>
 											<div class="header_extra ml-auto">
 												<div class="header_search"><i class="fa fa-search" aria-hidden="true"></i></div>
-												<div class="button header_button"><a href="#">Buy Tickets Now!</a></div>
+												<div class="button header_button"><a href="#">Search and Filter</a></div>
 											</div>
 										</div>
 									</div>
@@ -134,113 +124,95 @@
 			</div>
 		</header>
 
-		
-
-	<!-- Speakers -->
-
-	<div class="speakers">
-		<div class="container reset_container">
-
-			<!-- Speaker -->
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 speaker_col reset_col">
-					<div class="speaker_image" style="background-image:url(https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/company/history_milestones/A330-A340-overview-tails.jpg?wid=1920&fit=fit,1&qlt=85,0)"></div>
-				</div>
-				<div class="col-lg-6">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Air-Buzz</div>
-						<div class="speaker_subtitle">-History</div>
-						<div class="speaker_text">
-							<p>With a 50-year track record of innovation, technological firsts and industry milestones, Airbus has lived up to its official motto, “We Make It Fly,” from the company’s creation.
-
-							Today, Airbus is a leader in designing, manufacturing and delivering aerospace products, services and solutions to a customer base that spans the globe – with operations for commercial aircraft, helicopters, defence and space.
-
-							Learn about Airbus’ continuing success story with the extensive “History” sections below, which cover the company’s activities for commercial jetliners and helicopters.</p>
+		<div class="home_content_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_date"></div>
+							<div class="home_title"><h1>AirBus</h1></div>
+							
+							<div class="home_text"><br><br><br><br><br><h3><b>Airbus is an international reference in the aerospace sector. We design, manufacture and deliver industry-leading commercial aircraft, helicopters, military transports, satellites and launch vehicles, as well as providing data services, navigation, secure communications, urban mobility and other solutions for customers on a global scale.</b></h3></div>
+							<div class="home_buttons">
+								<div class="button home_button"><a href="#">Flights</a></div>
+								<div class="button home_button"><a href="#">Overview</a></div>
+							</div>
 						</div>
-						<div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
+	<!-- Intro -->
 
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 order-lg-1 order-2">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Arti-craft</div>
-						<div class="speaker_subtitle">-Building process</div>
-						<div class="speaker_text">
-							<p>From design through production and onward to final tests and certifications, each Airbus jetliner is the result of wide-ranging expertise, complex logistics, and multinational cooperation across thousands of employees, suppliers and partners.</p>
-						</div>
-						<div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div>
-					</div>
+	<div class="intro">
+		<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_1.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#popup1">FLight A310</a></div>
+					<div class="intro_subtitle"></div>
 				</div>
-				<div class="col-lg-6 speaker_col reset_col order-lg-2 order-1">
-					<div class="speaker_image" style="background-image:url(https://airbus-h.assetsadobe2.com/is/image/content/dam/operations/manufacturing/transport/A380_transport_unloading.jpg?wid=1000&qlt=85,0)"></div>
+				</div>
+			
+
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_2.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Flight A320</a></div>
+					<div class="intro_subtitle">
+			</div>
+			</div>
+			</div>
+			
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_3.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Flight A330</a></div>
+					<div class="intro_subtitle"></div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_4.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Flight A340</a></div>
+					<div class="intro_subtitle"></div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_5.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Flight A350</a></div>
+					<div class="intro_subtitle"></div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="images/intro_6.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Support and Help</a></div>
+					<div class="intro_subtitle">.</div>
 				</div>
 			</div>
 
 		</div>
 	</div>
 
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 speaker_col reset_col">
-					<div class="speaker_image" style="background-image:url(https://cdn.pixabay.com/photo/2017/11/15/06/31/black-2951013__340.png)"></div>
-				</div>
-				<div class="col-lg-6">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Offers</div>
-						<div class="speaker_subtitle">Make use of it</div>
-						<div class="speaker_text">
-							<p>-->Get 20% Cashback, upto Rs.2000, when you pay with Induslnd Bank Cards.</p>
-							<p>-->Get 15% supercash, upto Rs.800, when you pay using Mobiwik.</p>
-							<p>-->Pay with your Mastercard onboard & get 20% off on food and beverages.</p>
-						</div>
-						<div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div>
-					</div>
-				</div>
-			</div>
+	
+	
 
-			<!-- Speaker -->
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-6 order-lg-1 order-2">
-					<div class="speaker_content d-flex flex-column align-items-start justify-content-center">
-						<div class="speaker_title">Popular Destinations</div>
-						<div class="speaker_subtitle">Must visits.!</div>
-						<div class="speaker_text">
-							<p>Locations you may like:</p>
-							<li>Bangalore</li>
-							<li>Chennai</li>
-							<li>Hyderabad</li>
-							<li>Jaipur</li>
-						</div>
-						<div class="button speaker_button"><a href="#">Buy Tickets Now!</a></div>
-					</div>
-				</div>
-				<div class="col-lg-6 speaker_col reset_col order-lg-2 order-1">
-					<div class="speaker_image" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/19/15/41/charminar-896162__340.jpg)"></div>
-				</div>
-			</div>
 
-			<!-- Speaker -->
-			
-			<!-- Speaker -->
-			
-
-	<!-- Call to action -->
-
-	<div class="cta">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="cta_content text-center">
-						<div class="cta_title">Get your tickets now!</div>
-						<div class="button cta_button"><a href="#">Find out more</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<!-- Footer -->
 
@@ -258,13 +230,13 @@
 										<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
 										<div class="logo_content">
 											<div id="logo_text" class="logo_text logo_text_not_ie">AirBus</div>
-											<div class="logo_sub"></div>
+											<div class="logo_sub">Airbus is an international reference in the aerospace sector. We design, manufacture and deliver industry-leading commercial aircraft, helicopters, military transports, satellites and launch vehicles, as well as providing data services, navigation, secure communications, urban mobility and other solutions for customers on a global scale.</div>
 										</div>
 									</div>
 								</a>	
 							</div>
 							<div class="footer_about_text">
-								<p>Airbus is an international reference in the aerospace sector. We design, manufacture and deliver industry-leading commercial aircraft, helicopters, military transports, satellites and launch vehicles, as well as providing data services, navigation, secure communications, urban mobility and other solutions for customers on a global scale.</p>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -329,6 +301,7 @@
 									</ul>
 								</div>
 								
+							</div>
 						</div>
 					</div>
 				</div>
@@ -344,6 +317,6 @@
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/speakers.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
