@@ -50,7 +50,7 @@
 
 	<div class="home">
 		<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/index.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/bg.jpg" data-speed="0.8"></div>
 
 		<!-- Header -->
 
@@ -66,7 +66,7 @@
 											<div class="logo_container d-flex flex-row align-items-start justify-content-start">
 												<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
 												<div class="logo_content">
-													<div id="logo_text" class="logo_text logo_text_not_ie">Air Buzz</div>
+													<div id="logo_text" class="logo_text logo_text_not_ie">AirBus</div>
 													<div class="logo_sub">The Ultimate Travel</div>
 												</div>
 											</div>
@@ -130,9 +130,9 @@
 					<div class="col">
 						<div class="home_content">
 							<div class="home_date"></div>
-							<div class="home_title">AirBus</div>
+							<div class="home_title"><h1>AirBus</h1></div>
 							
-							<div class="home_text">Airbus is an international reference in the aerospace sector. We design, manufacture and deliver industry-leading commercial aircraft, helicopters, military transports, satellites and launch vehicles, as well as providing data services, navigation, secure communications, urban mobility and other solutions for customers on a global scale.</div>
+							<div class="home_text"><br><br><br><br><br><h3><b>Airbus is an international reference in the aerospace sector. We design, manufacture and deliver industry-leading commercial aircraft, helicopters, military transports, satellites and launch vehicles, as well as providing data services, navigation, secure communications, urban mobility and other solutions for customers on a global scale.</b></h3></div>
 							<div class="home_buttons">
 								<div class="button home_button"><a href="#">Flights</a></div>
 								<div class="button home_button"><a href="#">Overview</a></div>
