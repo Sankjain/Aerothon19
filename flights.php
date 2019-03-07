@@ -90,15 +90,15 @@
 												<ul>
 													<li class="active"><a href="flights.php">Home</a></li>
 													<li><a href="#">About Us</a></li>
-													<li><a href="speakers.html">Flights</a></li>
-													<li><a href="events.html">Overview</a></li>
 													
-													<li><a href="contact.html">Contact</a></li>
 												</ul>
 											</nav>
 											<div class="header_extra ml-auto">
-												<div class="header_search"><i class="fa fa-search" aria-hidden="true"></i></div>
-												<div class="button header_button"><a href="#">Search and Filter</a></div>
+												<div class="button header_button"><a href="search1.php">Search by MSN</a></div>
+												<div class="button header_button"><a href="search2.php">Search by Flight No</a></div>
+												<div class="button header_button"><a href="filter.php">Filter By Dest</a></div>
+												<div class="button header_button"><a href="filter.php">Filter By Src</a></div>
+												
 											</div>
 										</div>
 									</div>
@@ -153,7 +153,7 @@
 			<div class="intro_item">
 				<div class="intro_image"><img src="images/intro_1.jpg" alt=""></div>
 				<div class="intro_body">
-					<div class="intro_title"><a href="#popup1">FLight A310</a></div>
+					<div class="intro_title"><a href="A310.php">Flight A310</a></div>
 					<div class="intro_subtitle"></div>
 				</div>
 				</div>
@@ -164,7 +164,7 @@
 			<div class="intro_item">
 				<div class="intro_image"><img src="images/intro_2.jpg" alt=""></div>
 				<div class="intro_body">
-					<div class="intro_title"><a href="#">Flight A320</a></div>
+					<div class="intro_title"><a href="A320.php">Flight A320</a></div>
 					<div class="intro_subtitle">
 			</div>
 			</div>
@@ -174,7 +174,7 @@
 			<div class="intro_item">
 				<div class="intro_image"><img src="images/intro_3.jpg" alt=""></div>
 				<div class="intro_body">
-					<div class="intro_title"><a href="#">Flight A330</a></div>
+					<div class="intro_title"><a href="A330.php">Flight A330</a></div>
 					<div class="intro_subtitle"></div>
 				</div>
 			</div>
@@ -183,7 +183,7 @@
 			<div class="intro_item">
 				<div class="intro_image"><img src="images/intro_4.jpg" alt=""></div>
 				<div class="intro_body">
-					<div class="intro_title"><a href="#">Flight A340</a></div>
+					<div class="intro_title"><a href="A340.php">Flight A340</a></div>
 					<div class="intro_subtitle"></div>
 				</div>
 			</div>
@@ -192,7 +192,7 @@
 			<div class="intro_item">
 				<div class="intro_image"><img src="images/intro_5.jpg" alt=""></div>
 				<div class="intro_body">
-					<div class="intro_title"><a href="#">Flight A350</a></div>
+					<div class="intro_title"><a href="A350.php">Flight A350</a></div>
 					<div class="intro_subtitle"></div>
 				</div>
 			</div>
